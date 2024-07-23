@@ -20,7 +20,7 @@
                 <c:forEach var="entry" items="${co2WerteList}">
                     <tr>
                         <td><c:out value="${entry.country}"/></td>
-                        <td><c:out value="${entry.co2Emissions}"/></td> <!-- Hier sicherstellen, dass der richtige Eigenschaftsname verwendet wird -->
+                        <td><c:out value="${entry.co2Emissions}"/></td>
                         <td><c:out value="${entry.year}"/></td>
                     </tr>
                 </c:forEach>

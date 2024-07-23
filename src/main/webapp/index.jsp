@@ -11,5 +11,9 @@
         <input type="text" id="country" name="country" placeholder="Land eingeben" required>
         <input type="submit" value="Suchen">
     </form>
+    <br>
+    <form action="login.jsp">
+        <input type="submit" value="Login">
+    </form>
 </body>
 </html>
